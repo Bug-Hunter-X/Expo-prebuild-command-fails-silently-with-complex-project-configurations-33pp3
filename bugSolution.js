@@ -1,0 +1,1 @@
+The issue was resolved by carefully reviewing all the native modules included in the project's configuration and removing several that were no longer being used.  Additionally, some deprecated dependencies were discovered and updated.  After this cleanup and updating the `package.json` and `app.json` files, the `expo prebuild` command executed successfully without errors.
